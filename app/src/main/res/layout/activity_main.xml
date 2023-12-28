@@ -75,6 +75,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:visibility="invisible"
                 android:src="@drawable/ic_plues" />
         </LinearLayout>
 
@@ -265,7 +266,7 @@
                         android:id="@+id/tv_unlock_next_level"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="unlock next level progress"
+                        android:text="Unlock next level progress"
                         android:textColor="#FF714E38"
                         android:textSize="14sp"
                         android:layout_marginTop="16dp"
